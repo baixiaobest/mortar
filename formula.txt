@@ -1,0 +1,2 @@
+=(np.rad2deg(np.arctan(((muzzle_velocity^2)+np.sqrt(((muzzle_velocity^4)-9.81*((9.81*muzzle_velocity^2)+(2*rel_elevation*muzzle_velocity^2)))))/(9.81*distance))) - np.rad2deg(np.arctan(((muzzle_velocity^2)+np.sqrt(((muzzle_velocity^4)-9.81*((9.81*muzzle_velocity^2)+(2*0*muzzle_velocity^2)))))/(9.81*distance))))
++(90-np.rad2deg(np.arctan(((muzzle_velocity^2)/(9.81*distance))-(((((muzzle_velocity^2)*((muzzle_velocity^2)-(19.62*0)))/(96.2361*(distance^2)))-1)^0.5))))
